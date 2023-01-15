@@ -1,0 +1,161 @@
+
+@media only screen and (max-width: 576px )  {
+    .main, .footer{
+        width: 100%;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .nav_menu{
+        flex-direction: column;
+        text-align: center;
+    }
+    .Brand_New_Box{
+        width: 350px;
+       
+    }
+    .Brand_New_Title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        color: #131313;
+    }
+    .Brand_New_desc{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #727272;
+        margin: 20px 0;
+    }
+    .Banner{
+        flex-direction: column;
+    }
+    .banner_image{
+        width: 350px;
+        height: 350px;
+    }
+
+    /* Quick List Start */
+
+   .Quick_list{   
+        flex-direction: column;
+   }
+   .Quick_list_Image{   
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+   }
+   
+   .Quick_List_Title{   
+       width: 350px;
+       font-size: 35px;
+       color: #727272;
+       text-align: center;
+   }
+
+   .Quick_List_Desc{   
+        width: 350px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 24px 0;
+        text-align: left;
+   }
+
+   /* Quick List End */
+
+   /* Feature start */
+   .Feature_Content{
+       width: 350px;
+       flex-direction: column;
+       padding: 10px;
+   }
+   .Feature_desc{
+       /* background-color: lightseagreen; */
+       width: 100%;
+
+   }
+   .Feature_Title{
+       width: 100%;
+   }
+   .feature_detail{
+       width: 100%;
+      padding: 25px;
+     
+   }
+   .Feature_Cards{
+     width: 350px;
+     
+   }
+   .feature_card{
+       width: 280px;
+       height: 200px;
+       padding: 25px;
+       margin: 20px;
+     
+   }
+   .card_desc{
+       width: 100%;
+   }
+.Feature_Image{
+    width: 100%;
+}
+.feature_image_{
+    width: 100%;
+}
+.btn_secondary{
+    position: static;
+    width: 250px;
+    margin-left: 20% ;
+}
+
+/* Feature end */
+
+/* Fact Start */
+.fact_title{
+    width: 100%;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+ }
+ .fact_detail{
+     width: 300px;
+     text-align: center;
+     /* background-color: yellow; */
+     margin: 0 auto;
+ }
+/* Fact*/
+
+/* work*/
+.Work{
+    flex-direction: column;
+    width: 340px;
+}
+.box{
+    width: 300px;
+     margin: 10px auto;
+}
+/* Work*/
+
+
+/* Sponser*/
+.sponspors_desc{
+    width: 100%;
+}
+.Sponspors_Pic{
+    flex-direction: column;
+}
+.sponspors_image{
+    width: 50%;
+    margin: 20px auto;
+}
+/* Sponser*/
+
+
+/* footer*/
+.footer_content{
+    width: 80%;
+    text-align: center;
+}
+/* footer*/
+}
